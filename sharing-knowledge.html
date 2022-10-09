@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/624add9a4f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hlx3wpi.css" />
+    <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+    <link rel="stylesheet" href="projects/sharing-knowledge/css/style.css" />
+    <script src="projects/sharing-knowledge/js/menu-city.js" defer></script>
+    <title>Sharing knowledge | Inspiration tool for students</title>
+  </head>
+  <!--Video tutorials used to make the different elements on this webpage-->
+  <!--Sidebar: https://www.youtube.com/watch?v=O9l75KOB2pE-->
+  <!--Dropdown Menu: https://www.youtube.com/watch?v=Iyx_809qwoc-->
+  <!--Manual/auto image slider: https://www.youtube.com/watch?v=0wvrlOyGlq0&t=849s-->
+  <!--Embedded youtube videos: https://www.youtube.com/watch?v=OOy764mDtiA-->
+  <body>
+    <p class="info-title">Skift til et device med større skærm for at se projektet</p>
+    <iframe class="info-animation" src="https://embed.lottiefiles.com/animation/109865"></iframe>
+    <!--Header dropdown menu-->
+    <main>
+      <nav class="dropdown-menu">
+        <h1 class="page-title">Havgård<span class="page-title--color">Coding</span></h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">Submenus</a>
+            <ul>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
+              <li>
+                <a href="#"
+                  >Hover Here
+                  <span class="fa fa-plus"></span>
+                </a>
+                <ul>
+                  <li><a href="#">Submenu-1</a></li>
+                  <li><a href="#">Submenu-2</a></li>
+                  <li><a href="#">Submenu-3</a></li>
+                  <li><a href="#">Submenu-4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Anders & Tine</a>
+            <ul>
+              <li><a href="/Anders/Anders.html">Anders page</a></li>
+              <li><a href="#">Tine's Page</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Mira & Celine</a>
+            <ul>
+              <li><a href="#">Mira's page</a></li>
+              <li><a href="#">Celine's page</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Lisa & Mikkel</a>
+            <ul>
+              <li><a href="#">Lisa's page</a></li>
+              <li><a href="#">Mikkel's page</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!--slide in sidebar-->
+      <div class="btn">
+        <span class="fas fa-bars"></span>
+      </div>
+      <nav class="sidebar">
+        <div class="menu-title">Side menu</div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#" class="group1-btn"
+              >Anders & Tine
+              <span class="fas fa-caret-down first"></span>
+            </a>
+            <ul class="group1-show">
+              <li><a href="/Anders/Anders.html">Anders page</a></li>
+              <li><a href="#">Tine's page</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="group2-btn"
+              >Mira & Celine
+              <span class="fas fa-caret-down second"></span>
+            </a>
+            <ul class="group2-show">
+              <li><a href="#">Mira's page</a></li>
+              <li><a href="#">Celine's page</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="group3-btn"
+              >Lisa & Mikkel
+              <span class="fas fa-caret-down third"></span>
+            </a>
+            <ul class="group3-show">
+              <li><a href="#">Lisa's page</a></li>
+              <li><a href="#">Mikkel's page</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!--Auto/manual image slider Start-->
+      <div class="slider">
+        <div class="slides">
+          <!--radio buttons start: Press these buttons to move to another picture-->
+          <input class="radio" type="radio" name="radio-btn" id="radio1" />
+          <input class="radio" type="radio" name="radio-btn" id="radio2" />
+          <input class="radio" type="radio" name="radio-btn" id="radio3" />
+          <input class="radio" type="radio" name="radio-btn" id="radio4" />
+          <!--Radio buttons end-->
+          <!--Slide images start-->
+          <div class="slide first">
+            <div class="slide-1-background">
+              <div class="slide-1--grid">
+                <h2 class="slide__title">
+                  Slide in <span class="slide__title--color">|</span> <br />
+                  Side menu <span class="slide__title--color">|</span>
+                </h2>
+                <p class="slide__paragraph">A side menu build using Html, CSS and Javascript. It consists of a title and different menu sections, that each has their own submenus.</p>
+                <h3 class="slide__comment">"Check the menu out by pressing the menu icon in the top left corner"</h3>
+              </div>
+            </div>
+            <img src="projects/sharing-knowledge/assets/Images/dark-green-leafs-nature-img.jpg" alt="A nature picture of dark leafs" />
+          </div>
+          <div class="slide">
+            <div class="slide-2-background">
+              <div class="slide-2--grid">
+                <h2 class="slide-2__title"><span class="slide-2__title--color">Automatic</span> image slider</h2>
+                <p class="slide-2__paragraph">A background image slider build using Html, CSS and Javascript. It can be controller manually pressing the 4 radio buttons at the bottom of the screen, or you can whait the 7 seconds it takes to automatically go to the next picture.</p>
+                <h2 class="slide-2__title--bottom"><span class="slide-2__title--color">Manual</span> image slider</h2>
+              </div>
+            </div>
+            <img src="projects/sharing-knowledge/assets/Images/forrest-bridge-nature-img.jpg" alt="A picture of a bridge in a forrest" />
+          </div>
+          <div class="slide">
+            <div class="slide-3-background">
+              <div class="slide-3--grid">
+                <h2 class="slide-3__title"><span class="slide-3__title--color">Drop</span><br />The<span class="slide-3__title--color"> menu</span></h2>
+                <p class="slide-3__paragraph">The dropdown menu on this site is build using only Html and CSS. It consists of multiple menu points that each has their own list items that appear as soon as you hover or click the menu point. There is also a section called submenus, that other than having list items in it, also has another section og list items that appear when you hover over it.</p>
+                <h3 class="slide-3__comment">- Check out the menu at the top of the screen</h3>
+              </div>
+            </div>
+            <img src="projects/sharing-knowledge/assets/Images/green-leafs-nature-img.jpg" alt="A picture of green leafs" />
+          </div>
+          <div class="slide">
+            <div class="slide-4-background">
+              <div class="slide-4--grid">
+                <h2 class="slide-4__title">Embedded videos</h2>
+                <span class="slide-4__title--border"></span>
+                <p class="slide-4__paragraph">A series of videos embedded on the website using the link found on youtube. It is being displayed in a grid, with text describing the content of the videos.</p>
+                <span class="slide-4__paragraph--border"></span>
+                <h3 class="slide-4__comment">"Scroll further down to see the videos"</h3>
+              </div>
+            </div>
+            <img src="projects/sharing-knowledge/assets/Images/forrest-road-nature-img.jpg" alt="A nature picture of a forrest road" />
+          </div>
+          <!--Slide images end-->
+          <!--Automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--Automatic navigation end-->
+          <!--Manual navigation start-->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!--Manual navigation end-->
+        </div>
+      </div>
+      <!--Youtube videos that have been used to help me make this site-->
+      <!--Embedded youtube videos-->
+      <div class="tutorials">
+        <h2 class="tutorials__title">Youtube tutorial videos</h2>
+        <p class="tutorials__paragraph">Down below you will find a list of different youtube tutorials that has been used to make this website</p>
+        <span class="tutorials__border"></span>
+      </div>
+      <!--Embedded youtube videos-->
+      <div class="video--background-color">
+        <div class="videos-section-wrapper">
+          <div class="video-grid">
+            <section class="video">
+              <h3 class="video__title">Side menu bar</h3>
+              <p class="video__paragraph">A tutorial video showing how to build the side menu bar</p>
+              <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O9l75KOB2pE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </section>
+            <section class="video">
+              <h3 class="video__title">Drop-down menu bar</h3>
+              <p class="video__paragraph">A tutorial video showing how to build the drop-down menu</p>
+              <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Iyx_809qwoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </section>
+            <section class="video">
+              <h3 class="video__title">Image slider</h3>
+              <p class="video__paragraph">A tutorial video showing how to build a manual/automatic image slider</p>
+              <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0wvrlOyGlq0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </section>
+            <section class="video">
+              <h3 class="video__title">Embedded youtube videos</h3>
+              <p class="video__paragraph">A tutorial video showing how to add youtube videos to your webpage</p>
+              <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OOy764mDtiA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <section class="bottom-page-note">
+        <i class="fa-regular fa-message-smile smiley"></i>
+        <p class="bottom-page-note__message">This is the end of the page <br />Thanks for visiting</p>
+      </section>
+    </main>
+  </body>
+</html>
